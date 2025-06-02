@@ -79,14 +79,6 @@ FROM netflix
 WHERE TO_DATE(date_added, 'Month DD, YYYY') >= CURRENT_DATE - INTERVAL '5 years'
 
 
-
-
-
-
-
-
-
-
 -- 7. Find all the movies/TV shows by director 'Rajiv Chilaka'!
 
 WITH director_cte AS 
